@@ -172,7 +172,7 @@ class Rclone extends ServiceAbstract
      * @return string Returns the mntentref for the mntent entry
      */
     private function createMntentEntry(ConfigObject $object) {
-        $mountPoint = '/tank2/mnt/' . $object->get('name');
+        $mountPoint = '/mnt/' . $object->get('name');
 
         $mntentEntry = [
             'uuid' => $object->get('self-mntentref'),
