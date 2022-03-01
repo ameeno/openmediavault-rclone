@@ -3,6 +3,8 @@ openmediavault-rclone
 
 1. You have to install and configure rclone by your own.
 1. You have to create systemd services for rclone mounts by your own.
+1. Name of systemd-service should be the same as the name of the folder.
+1. you need to modify the code for the name of the storage where your /mnt is mounted.
 
 Example systemd service:
 ------------------------
