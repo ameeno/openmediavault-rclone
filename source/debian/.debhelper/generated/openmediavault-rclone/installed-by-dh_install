@@ -1,0 +1,6 @@
+./usr/share/openmediavault/confdb
+./usr/share/openmediavault/datamodels
+./usr/share/openmediavault/engined
+./usr/share/php/openmediavault
+./var/www/openmediavault/images
+./var/www/openmediavault/js

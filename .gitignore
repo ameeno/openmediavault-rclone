@@ -5,3 +5,5 @@ debian/.debhelper
 debian/files
 debian/source
 debian/debhelper-build-stamp
+
+output/openmediavault*
